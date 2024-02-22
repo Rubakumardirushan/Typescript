@@ -35,3 +35,12 @@ var dolog = function (message1) {
     console.log(message1);
 };
 dolog('arrow function');
+//interfaces
+var arrow = function (x, y) {
+    return x + y;
+};
+arrow(2, 4);
+var findvalue = function (point) {
+    console.log(point.name);
+    return point.x + point.y + point.z;
+};

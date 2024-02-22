@@ -52,3 +52,18 @@ let arrow=(x:number,y:number)=>{
 }
 
 arrow(2,4)
+ interface Point{
+x:number;
+y:number;
+name:string;
+z:number;
+
+ }
+
+let findvalue=(point:Point)=>{
+
+console.log(point.name)
+return point.x+point.y+point.z
+
+
+}
