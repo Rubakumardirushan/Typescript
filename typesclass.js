@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Box = void 0;
 var Box = /** @class */ (function () {
     function Box(length, width, height) {
         var _this = this;
@@ -11,5 +14,8 @@ var Box = /** @class */ (function () {
     }
     return Box;
 }());
+exports.Box = Box;
 var box1 = new Box(2, 3, 4);
-box1.findvolume();
+//access modifiers
+//Object accessor
+//getters and setters

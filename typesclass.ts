@@ -1,4 +1,4 @@
-class Box{
+ export class Box{
  private length:number;
  private width:number;
  private height:number;
@@ -23,5 +23,8 @@ let box1=new Box(2,3,4);
 
 
 //access modifiers
+
+//Object accessor
+//getters and setters
 
 
